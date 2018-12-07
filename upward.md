@@ -1,6 +1,7 @@
 ---
 layout: upward
 title: Upward Sports
+permalink: upward.html
 ---
 
 # Upward Sports
