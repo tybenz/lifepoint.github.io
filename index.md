@@ -2,9 +2,10 @@
 layout: default
 banner: Love God<br>Love Your Neighbor<br>Make Disciples
 title: Home
+published: true
 ---
 
-### News
+# News
 
 **Christmas services**
 
