@@ -1,0 +1,58 @@
+<nav class="cabin-nav js-nav-itself">
+  <div class="cabin-nav-hamburger js-hamburger"></div>
+  <div class="cabin-nav-logo"></div>
+  <div class="cabin-nav-logo-secondary js-hamburger"></div>
+  <div class="cabin-nav-inner js-mobile-links">
+    <div class="cabin-service-time-secondary">
+      <span class="cabin-service-time-secondary-inner">
+        9:30am Connect &middot; 10:00am Worship      </span>
+    </div>
+    <ul class="cabin-nav-items">
+      <li class="cabin-nav-item">
+        <a href="index.html"><i class="cabin-nav-icon icon_house_alt fa"></i>Home</a>
+      </li>
+      {% comment %} about links {% endcomment %}
+      <li class="cabin-nav-item cabin-nav-item-with-sub js-nav-accordion-wrapper">
+        <a href="about" class="js-nav-accordion"><i class="cabin-nav-icon icon_ribbon_alt fa"></i>About</a>
+        <ul class="cabin-nav-subitems">
+          {% assign pages_list = site.pages %}
+          {% for node in pages_list %}
+            {% if node.title != null %}
+              {% if node.parentPage == "about" %}
+                <li class="cabin-nav-item"><a href="{{ node.url }}"><i class="cabin-nav-icon icon_{{ node.icon }} fa"></i>{{ node.title }}</a></li>
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </li>
+      {% comment %} ministries links {% endcomment %}
+      <li class="cabin-nav-item cabin-nav-item-with-sub js-nav-accordion-wrapper">
+        <a href="ministries" class="js-nav-accordion"><i class="cabin-nav-icon icon_map_alt fa"></i>Ministries</a>
+        <ul class="cabin-nav-subitems">
+          {% assign pages_list = site.pages %}
+          {% for node in pages_list %}
+            {% if node.title != null %}
+              {% if node.parentPage == "ministries" %}
+                <li class="cabin-nav-item"><a href="{{ node.url }}"><i class="cabin-nav-icon icon_{{ node.icon }} fa"></i>{{ node.title }}</a></li>
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </li>
+      <li class="cabin-nav-item">
+        <a href="/upward" class=""><i class="cabin-nav-icon arrow_carrot-2up_alt2 fa"></i>Upward Sports</a>
+      </li>
+    </ul>
+    <div class="cabin-service-time">
+      <strong>Sunday Service</strong>
+      <p>{{ site.service_time_1 }}</p>
+      <p>{{ site.service_time_2 }}</p>
+      <p>{{ site.address }}</p>
+    </div>
+    <div class="cabin-nav-social-links">
+      <a target="_blank" href="{{ site.facebook }}" class="cabin-social-link"><span class="social_facebook_square"></span></a>
+      <a target="_blank" href="{{ site.instagram }}" class="cabin-social-link"><span class="social_instagram_square"></span></a>
+      <a target="_blank" href="{{ site.spotify }}" class="cabin-social-link"><span class="social_spotify_square"></span></a>
+    </div>
+  </div>
+</nav>

@@ -1,0 +1,31 @@
+# Dependencies
+markdown:         kramdown
+
+# Permalinks
+permalink:        /post/:title
+
+# Setup
+title:            "LifePoint Church"
+description:      "Love God. Love Your Neighbor. Make Disciples."
+url:              http://lifepointoakdale.org
+baseurl:          "/"
+
+# Custom vars
+spotify:          https://open.spotify.com/user/lifepointoakdale
+facebook:         https://facebook.com/lifepointoakdale
+instagram:        https://instagram/lifepointoakdale
+setlister:        http://setlister.lifepointoakdale.org/setlists
+
+tel:              1-209-581-2218
+phone:            (209) 581-2218
+service_time_1:   9:30am Connect
+service_time_2:   10:00am Worship
+email:            lifepointchurchoakdale@gmail.com
+email_prefix:     lifepointchurchoakdale
+email_suffix:     gmail.com
+address:          120 West Ave - Oakdale, CA
+city:             Oakdale, CA
+zipcode:          95361
+mailing_address:  P.O. Box 1172
+quote:            Jesus said "I have come that they may have life, and have it to the full" John 10:10 (NIV)
+copyright:        © LifePoint Church 2018
