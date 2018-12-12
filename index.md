@@ -20,5 +20,7 @@ Connect Time begins at 9:30am, come join us for coffee and donuts. The service s
 **Bible studies**
 
 On break until after the new year
-<!-- <p>Men's: September 18th @ 7:00pm</p> -->
-<!-- <p>Women's: September 5th @ 9:00am & September 5th @ 7:00pm</p> -->
+
+<!--Men's: September 18th @ 7:00pm-->
+
+<!--Women's: September 5th @ 9:00am & September 5th @ 7:00pm-->
