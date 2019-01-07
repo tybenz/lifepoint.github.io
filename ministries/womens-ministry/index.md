@@ -3,9 +3,10 @@ layout: default
 parentPage: ministries
 banner: Women's Ministry
 title: Women's Ministry
+published: true
 ---
 
-**Women's bible studies meet Wednesdays at 9:00am & 7:00pm (on break until after the new year)**
+**Women's bible studies meet Wednesdays at 9:00am & 7:00pm**
 
 Join us as we gather together as women.
 
