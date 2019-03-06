@@ -2,17 +2,19 @@
 layout: upward
 title: Upward Sports
 permalink: upward.html
+published: true
 ---
 
 # Upward Sports
 
-<!--
-<a class="upward-register-btn" href="http://registration.upward.org/UPW66238">REGISTER NOW</a>
--->
+<a class="upward-register-btn" href="https://registration.upward.org/UPW68421">REGISTER NOW</a>
 
 **Flag Football**
 
-Coming Soon - Summer / Fall 2019
+- **When:** August – November 2019
+- **Cost:** $125 ($10 sibling discount available)
+- **Includes:** 8 Game Season, Uniforms with Shorts & Flag Belts
+- **Grades:** 1st—6th Including kindergartener’s born before 6/30/13.
 
 ### About
 
@@ -29,9 +31,12 @@ Oakdale Upward Sports is so blessed by the service of volunteers, who help ensur
 
 **Important dates**
 
-- Registration Opens - Spring 2019
-- Evaluations - Summer 2019
-- 2019 Season Begins - September 2019
+- Registration Ends – July 20, 2019
+- Late Registration Ends – July 29, 2019
+- Evaluations – July 20, 2019
+- Practice Begins – Week of August 20, 2019
+- Picture Day – August 27, 2019
+- Games Begin – September 7, 2019
 
 **Practice and game location**
 
