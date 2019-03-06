@@ -14,7 +14,7 @@ published: true
 - **When:** August – November 2019
 - **Cost:** $125 ($10 sibling discount available)
 - **Includes:** 8 Game Season, Uniforms with Shorts & Flag Belts
-- **Grades:** 1st—6th Including kindergartener’s born before 6/30/13.
+- **Grades:** 1st—6th, Including kindergartener’s born before 6/30/13
 
 ### About
 
