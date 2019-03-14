@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="icon" href="https://res.cloudinary.com/deqkp2xjs/image/upload/v1544204827/images/favicon.png" type="image/x-icon" />
+
+  <title>{{ site.title }} | {{ site.description }}</title>
+  <meta name="description" content="Love God. Love Your Neighbor. Make Disciples">
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="LifePoint Church">
+  <meta name="twitter:description" content="Love God. Love Your Neighbor. Make Disciples.">
+  <meta name="twitter:image" content="" />
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="LifePoint Church" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="http://lifepointoakdale.org" />
+  <meta property="og:image" content="" />
+  <meta property="og:description" content="Love God. Love Your Neighbor. Make Disciples." />
+  <meta property="og:site_name" content="LifePoint Church" />
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112275910-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-112275910-1');
+  </script>
+
+  <link rel="stylesheet" href="/assets/css/bundle-bea613f3-81a0-4403-bb52-0ae1bc9eda0e.min.css">
+
+  <style type="text/css">
+    .cabin-title {
+        background-image: url('https://cdn.cybergolf.com/images/1602/slider_iStock_000013055259Large-img-web.jpg');
+    }
+
+    .cabin-title .col-12 {
+        text-shadow: 0 2px 2px rgba(0,0,0,0.5);
+    }
+      .hidden {
+          display: none;
+      }
+
+      .register-btn {
+          display: inline-block;
+          margin: 1em 0;
+          font-size: 20px;
+          padding: 0.55em 1em .5em;
+          color: #FFFFFF !important;
+          background-color: #BBAA85;
+          border-radius: 60px;
+          text-decoration: none;
+          font-weight: 700;
+          letter-spacing: 0.07em;
+      }
+      
+      .teams-list {
+          margin-top: 3em;
+          overflow: auto;
+      }
+      
+      .teams-list:after {
+          content: "";
+          clear: both;
+          display: table;
+      }
+      
+      .team {
+          margin-bottom: 1.5em;
+          float: left;
+      }
+      
+      .team p {
+          margin-top: 0;
+          margin-bottom: 0;
+      }
+      
+      .team .title {
+          margin-bottom: 1em;
+          font-weight: bold;
+      }
+  </style>
+</head>
+<body>
+  {% include nav.html %}
+
+  <div class="cabin-content">
+    <div class="cabin-content-1">
+    <div class="cabin-title cabin-title-home">
+      <h1 class="row"><div class="col-12">{{ page.banner }}</div></h1>
+    </div>
+    <div class="cabin-content-inner">
+      {{ content }}
+   </div>
+
+  <div class="cabin-footer">
+    <div class="row">
+      <div class="col-4 cabin-footer-quote">
+        <div class="cabin-footer-logo"></div>
+        <p class="cabin-footer-service-time">
+          {{ site.service_time_1 }} &middot; {{ site.service_time_2 }}</p>
+        <p>{{ site.address }}</p>
+        <p>{{ site.quote }}</p>
+        <p>{{ site.copyright }}</p>
+      </div>
+
+      <div class="col-4 cabin-footer-contact">
+        <div class="cabin-footer-contact-item">Phone:<br><a href="tel:+{{ site.tel }}">{{ site.phone }}</a></div>
+        <div class="cabin-footer-contact-item">Email:<br><a style="color: inherit" href="mailto:{{ site.email }}">{{ site.email_prefix }}<br>@{{ site.email_suffix }}</a></div>
+        <div class="cabin-footer-contact-item">Mailing Address:<br>{{ site.mailing_address }}<br>{{ site.city }} {{ site.zipcode }}</div>
+      </div>
+
+      <div class="col-4 cabin-footer-links">
+        <a target="_blank" href="{{ site.facebook }}">Facebook</a>
+        <a target="_blank" href="{{ site.instagram }}">Instagram</a>
+        <a target="_blank" href="{{ site.spotify }}">Spotify</a>
+        <a target="_blank" href="{{ site.setlister }}">Setlister</a>
+        {% comment %} <a href="panel.html">Login</a> {% endcomment %}
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+</html>
+<script src="/assets/js/bundle-bea613f3-81a0-4403-bb52-0ae1bc9eda0e.min.js"></script></body>
+<script type="text/javascript">
+  $.ajax({
+    url: 'https://spreadsheets.google.com/feeds/cells/1IwrAizeUqBqKxPJ_1N1SsL9Lub6slfpPLKgR18p3Emk/1/public/values?alt=json',
+    dataType: 'json',
+    success: function (data) {
+        var str = '';
+
+        var feed = data.feed;
+        var entries = feed.entry;
+        var rowCount = feed['gs$rowCount']['$t'];
+        var cellCount = feed['gs$colCount']['$t'];
+
+        var registeredTeams = [];
+
+        for (var i = cellCount; i < entries.length; i++) {
+          var data = entries[i]['gs$cell'];
+          if (data) {
+            var colNum = parseInt(data.col);
+            var rowNum = parseInt(data.row);
+            var text = data['$t'];
+            var row = registeredTeams[rowNum - 2];
+            if (!row) {
+              row = {};
+              registeredTeams[rowNum - 2] = row;
+            }
+            if (colNum == 1) {
+              row.date = text;
+            }
+            if (colNum == 2) {
+              row.isTeam = text == 'Team';
+            }
+            if (colNum > 2) {
+              var players = row.players;
+              if (!players) {
+                  players = [];
+                  row.players = players;
+              }
+              players.push(text);
+            }
+          }
+        }
+
+        var teamNum = 1;
+        var randomTeams = [{players: []}];
+        var currentTeamIndex = 0;
+        for (var j = 0, len = registeredTeams.length; j < len; j++) {
+          var row = registeredTeams[j];
+          if (row.isTeam) {
+            var html = '<div class="team col-4"><p class="title">Team ' + teamNum + '</p>';
+            for (var k = 0, len2 = row.players.length; k < len2; k++) {
+              html += '<p>' + row.players[k] + '</p>';
+            }
+            html += '</div>';
+            $('.teams-list-inner').append(html);
+            teamNum++;
+          } else {
+            var currentTeam = randomTeams[currentTeamIndex];
+            var players = currentTeam.players;
+            players.push(row.players[0]);
+            if (players.length == 4) {
+              currentTeamIndex++;
+              randomTeams[currentTeamIndex] = {players: []};
+            }
+          }
+        }
+
+
+        for (j = 0, len = randomTeams.length; j < len; j++) {
+          var row = randomTeams[j];
+          if (row.players.length) {
+              var html = '<div class="team col-4"><p class="title">Team' + teamNum + '</p>';
+              for (var k = 0, len2 = row.players.length; k < len2; k++) {
+                html += '<p>' + row.players[k] + '</p>';
+              }
+              html += '</div>';
+              $('.teams-list-inner').append(html);
+              teamNum++;
+          }
+        }
+
+        if (teamNum > 1 || randomTeams.length > 1 || randomTeams[0].players.length > 0) {
+            $('.teams-label').removeClass('hidden');
+        }
+    }
+  });
+</script>
