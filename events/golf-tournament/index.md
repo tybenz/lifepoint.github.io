@@ -5,7 +5,6 @@ banner: Golf Tournament
 title: Golf Tournament
 ---
 
-
 <a href="https://goo.gl/forms/KMfCAawlZK7VyCfZ2" class="register-btn">REGISTER HERE</a>
 
 - **Date:** Saturday, May 11th
@@ -16,6 +15,7 @@ title: Golf Tournament
 
 _\*  limited to 25 carts of 2 players per cart - first come basis_
 
+All proceeds of this golf tournament go directly to supporting our youth group.
 
 <div class="teams-list">
   <h4 class="teams-label hidden">Registered players</h4>
