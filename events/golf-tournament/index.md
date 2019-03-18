@@ -8,10 +8,11 @@ title: Golf Tournament
 
 <a href="https://goo.gl/forms/KMfCAawlZK7VyCfZ2" class="register-btn">REGISTER HERE</a>
 
-- **When:** Saturday, May 11th
-- **Where:** Jack Tone Golf Course
+- **Date:** Saturday, May 11th
+- **Time:** Check-in 6:30-7:30 — Tee-off 8:00
+- **Location:** Jack Tone Golf Course
 - **Cost:** $75 per player walking or $90 per player with cart\*
-- **Questions:** Call Becky with questions (209) 502-0803
+- **Questions:** Call Becky with questions <a href="tel:+12095020803">(209) 502-0803</a>
 
 _\*  limited to 25 carts of 2 players per cart - first come basis_
 

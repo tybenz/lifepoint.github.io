@@ -16,3 +16,5 @@ Connect Time begins at 9:30am, come join us for coffee and donuts. The service s
 Men's: Tuesdays @ 7:00pm
 
 Women's: Wednesdays @ 9:00am & Wednesdays @ 7:00pm
+
+<a href="/events/golf-tournament" class="register-btn">Golf Tournament Registration</a>

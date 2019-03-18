@@ -131,7 +131,7 @@
 <script src="/assets/js/bundle-bea613f3-81a0-4403-bb52-0ae1bc9eda0e.min.js"></script></body>
 <script type="text/javascript">
   $.ajax({
-    url: 'https://spreadsheets.google.com/feeds/cells/1IwrAizeUqBqKxPJ_1N1SsL9Lub6slfpPLKgR18p3Emk/1/public/values?alt=json',
+    url: 'https://spreadsheets.google.com/feeds/cells/1nCb4KV4gtL1E6ZfT6vzUB67U6tTPpIvAQOkqKx69SAs/1/public/values?alt=json',
     dataType: 'json',
     success: function (data) {
         var str = '';
@@ -158,7 +158,7 @@
               row.date = text;
             }
             if (colNum == 2) {
-              row.isTeam = text == 'Team';
+              row.numOnTeam = parseInt(text);
             }
             if (colNum > 2) {
               var players = row.players;
@@ -172,11 +172,12 @@
         }
 
         var teamNum = 1;
-        var randomTeams = [{players: []}];
-        var currentTeamIndex = 0;
+        var teamsOfOne = [];
+        var teamsOfTwo = [];
+        var teamsOfThree = [];
         for (var j = 0, len = registeredTeams.length; j < len; j++) {
           var row = registeredTeams[j];
-          if (row.isTeam) {
+          if (row.numOnTeam == 4) {
             var html = '<div class="team col-4"><p class="title">Team ' + teamNum + '</p>';
             for (var k = 0, len2 = row.players.length; k < len2; k++) {
               html += '<p>' + row.players[k] + '</p>';
@@ -184,29 +185,98 @@
             html += '</div>';
             $('.teams-list-inner').append(html);
             teamNum++;
+          } else if (row.numOnTeam == 3) {
+            teamsOfThree.push(row.players);
+          } else if (row.numOnTeam == 2) {
+            teamsOfTwo.push(row.players)
           } else {
-            var currentTeam = randomTeams[currentTeamIndex];
-            var players = currentTeam.players;
-            players.push(row.players[0]);
-            if (players.length == 4) {
-              currentTeamIndex++;
-              randomTeams[currentTeamIndex] = {players: []};
-            }
+            teamsOfOne.push(row.players);
           }
         }
 
+        for (j = 0, len = teamsOfThree.length; j < len; j++) {
+          var teamOfThree = teamsOfThree[j];
+          
+          var teamOfOne;
+          var newTeam;
+            if (teamsOfOne.length) {
+                teamOfOne = teamsOfOne.shift();
+                newTeam = teamOfThree.concat(teamOfOne)
+            } else {
+                newTeam = teamOfThree;
+            }
 
-        for (j = 0, len = randomTeams.length; j < len; j++) {
-          var row = randomTeams[j];
-          if (row.players.length) {
-              var html = '<div class="team col-4"><p class="title">Team' + teamNum + '</p>';
-              for (var k = 0, len2 = row.players.length; k < len2; k++) {
-                html += '<p>' + row.players[k] + '</p>';
-              }
-              html += '</div>';
-              $('.teams-list-inner').append(html);
-              teamNum++;
+          var html = '<div class="team col-4"><p class="title">Team ' + teamNum + '</p>';
+          for (var k = 0, len2 = newTeam.length; k < len2; k++) {
+            html += '<p>' + newTeam[k] + '</p>';
           }
+          html += '</div>';
+          $('.teams-list-inner').append(html);
+          teamNum++;
+        }
+
+        while (teamsOfTwo.length) {
+            var teamOfTwo = teamsOfTwo.shift();
+            var teamOfTwoNext = teamsOfTwo.shift();
+            var newTeam;
+
+            if (teamOfTwoNext) {
+                newTeam = teamOfTwo.concat(teamOfTwoNext);
+                var html = '<div class="team col-4"><p class="title">Team ' + teamNum + '</p>';
+                for (var k = 0, len2 = newTeam.length; k < len2; k++) {
+                    html += '<p>' + newTeam[k] + '</p>';
+                }
+                html += '</div>';
+                $('.teams-list-inner').append(html);
+                teamNum++;
+            } else {
+                var teamOfOne = teamsOfOne.shift();
+                if (teamOfOne) {
+                    var teamOfOneNext = teamsOfOne.shift();
+                    if (teamOfOneNext) {
+                        newTeam = teamOfTwo.concat(teamOfOne).concat(teamOfOneNext);
+                    } else {
+                        newTeam = teamOfTwo.concat(teamOfOne);
+                    }
+                } else {
+                    newTeam = teamOfTwo;
+                }
+                var html = '<div class="team col-4"><p class="title">Team ' + teamNum + '</p>';
+                for (var k = 0, len2 = newTeam.length; k < len2; k++) {
+                    html += '<p>' + newTeam[k] + '</p>';
+                }
+                html += '</div>';
+                $('.teams-list-inner').append(html);
+                teamNum++;
+            }
+        }
+
+        while (teamsOfOne.length) {
+            var teamOfOne = teamsOfOne.shift();
+            var teamOfOne2 = teamsOfOne.shift();
+            var teamOfOne3 = teamsOfOne.shift();
+            var teamOfOne4 = teamsOfOne.shift();
+            var newTeam;
+
+            if (teamOfOne) {
+                newTeam = teamOfOne;
+                if (teamOfOne2) {
+                    newTeam = newTeam.concat(teamOfOne2);
+                }
+                if (teamOfOne3) {
+                    newTeam = newTeam.concat(teamOfOne3);
+                }
+                if (teamOfOne4) {
+                    newTeam = newTeam.concat(teamOfOne4);
+                }
+                var html = '<div class="team col-4"><p class="title">Team ' + teamNum + '</p>';
+                for (var k = 0, len2 = newTeam.length; k < len2; k++) {
+                    html += '<p>' + newTeam[k] + '</p>';
+                }
+                html += '</div>';
+                $('.teams-list-inner').append(html);
+                teamNum++;
+            }
         }
 
         if (teamNum > 1 || randomTeams.length > 1 || randomTeams[0].players.length > 0) {
