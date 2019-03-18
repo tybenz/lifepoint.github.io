@@ -7,7 +7,7 @@ published: true
 
 # Upward Sports
 
-Registration Opens April 1, 2019
+<a href="https://registration.upward.org/UPW68421" class="upward-register-btn">REGISTER HERE</a>
 
 **Flag Football**
 
