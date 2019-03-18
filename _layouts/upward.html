@@ -47,6 +47,21 @@
       font-weight: 700;
       letter-spacing: 0.07em;
   }
+
+  .cabin-title-outer {
+      position: relative;
+  }
+
+  .cabin-title-outer:after {
+    content: '';
+    display: block;
+    width: 9999px;
+    background: linear-gradient(90deg, transparent 0%, transparent 8.5%, #3982BB 10%);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+  }
   </style>
 </head>
 <body>
@@ -54,7 +69,7 @@
 
   <div class="cabin-content">
     <div class="cabin-content-1">
-    <div style="max-width: 1000px">
+    <div class="cabin-title-outer" style="max-width: 1000px">
       <div class="cabin-title" style="background-image:url(https://res.cloudinary.com/deqkp2xjs/image/upload/v1544204839/images/upward.jpg);width: 100%; height: 0;padding: 0 0 38.52657%;"></div>
     </div>
     <div class="cabin-content-inner">
