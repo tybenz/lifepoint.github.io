@@ -7,9 +7,12 @@ published: true
 
 # News
 
-**Sundays**
+**Easter Sunday**
 
-Connect Time begins at 9:30am, come join us for coffee and donuts. The service starts at 10am.
+There are two services this Easter:
+
+- 8:30am
+- 10:00am
 
 **Bible studies**
 
@@ -22,5 +25,3 @@ Women's: Wednesdays @ 9:00am & Wednesdays @ 7:00pm
 <a href="/events/golf-tournament" class="register-btn">Golf Tournament Registration</a>
 
 <a href="/events/family-camp" class="register-btn">Family Camp Registration</a>
-
-
