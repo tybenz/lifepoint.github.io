@@ -7,11 +7,14 @@ published: true
 
 # News
 
-**Sundays**
+**Easter Sunday**
 
-Service is at 10:00am. Come early for coffee & connect time at 9:30.
+There are two services this Easter:
 
-**Bible studies**
+- 8:30am
+- 10:00am
+
+**Bible studies (on break for summer)**
 
 Men's: Tuesdays @ 7:00pm
 
