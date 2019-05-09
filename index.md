@@ -7,12 +7,9 @@ published: true
 
 # News
 
-**Easter Sunday**
+**Sundays**
 
-There are two services this Easter:
-
-- 8:30am
-- 10:00am
+Service is at 10:00am. Come early for coffee & connect time at 9:30.
 
 **Bible studies**
 
