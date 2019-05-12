@@ -22,6 +22,4 @@ Women's: Wednesdays @ 9:00am & Wednesdays @ 7:00pm
 
 ### Events
 
-<a href="/events/golf-tournament" class="register-btn">Golf Tournament Registration</a>
-
 <a href="/events/family-camp" class="register-btn">Family Camp Registration</a>
