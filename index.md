@@ -16,7 +16,3 @@ published: true
 Men's: Tuesdays @ 7:00pm
 
 Women's: Wednesdays @ 9:00am & Wednesdays @ 7:00pm
-
-### Events
-
-<a href="/events/family-camp" class="register-btn">Family Camp Registration</a>
