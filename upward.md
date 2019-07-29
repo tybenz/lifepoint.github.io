@@ -31,7 +31,7 @@ Oakdale Upward Sports is so blessed by the service of volunteers, who help ensur
 
 **Important dates**
 
-- Registration Ends – July 29, 2019
+- Registration Ends – July 31, 2019
 - Late Registration Ends – August 11, 2019
 - Practice Begins – Week of August 20, 2019
 - Picture Day – August 27, 2019
