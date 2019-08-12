@@ -7,9 +7,10 @@ published: true
 
 # Upward Sports
 
-<a href="https://registration.upward.org/UPW68421" class="upward-register-btn">REGISTER HERE</a>
 
 **Flag Football**
+
+REGISTRATION HAS CLOSED
 
 - **When:** August – November 2019
 - **Cost:** $125 ($10 sibling discount available)
@@ -30,9 +31,6 @@ Established in 1995, Upward Sports is the world’s largest Christian youth spor
 Oakdale Upward Sports is so blessed by the service of volunteers, who help ensure that our programs run smoothly and soundly. There are a variety of different volunteer opportunities available for our Flag Football program. Email [oakdaleupwardsports@gmail.com](mailto:oakdaleupwardsports@gmail.com) for details.
 
 **Important dates**
-
-- Registration Ends – July 31, 2019
-- Late Registration Ends – August 11, 2019
 - Practice Begins – Week of August 20, 2019
 - Picture Day – August 27, 2019
 - Games Begin – September 7, 2019
