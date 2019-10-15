@@ -6,7 +6,7 @@ title: Women's Ministry
 published: true
 ---
 
-**Women's bible studies on break for summer**
+**Women's bible studies: Wednesdays 9:00am & 7:00pm**
 
 Join us as we gather together as women.
 
