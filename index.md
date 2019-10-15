@@ -11,7 +11,7 @@ published: true
 
 10:00am worship - 9:30am connect time
 
-**Bible studies (on break for summer)**
+**Bible studies**
 
 Men's: Tuesdays @ 7:00pm
 
