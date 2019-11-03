@@ -3,12 +3,13 @@ layout: default
 parentPage: ministries
 banner: Youth Ministry
 title: Youth Ministry
+published: true
 ---
 Sunday morning Bible Study 5th-8th grade after worship
 
 Thursday night Junior High youth group 6:30 - 8:00 pm
 
-We send students to Hume Lake Christian Camps every summer in June. This years dates June 17-23. Here are some photos from one of our trips:
+We send students to Hume Lake Christian Camps every summer in June. This years dates June 14-20. Here are some photos from one of our trips:
 
 <div style="max-width: 700px; max-height:393.75px">
   <div style="max-width: 700px;height: 0;padding-bottom: 56.25%; position: relative;">
