@@ -35,11 +35,3 @@ published: true
   <div class="cabin-profile-description">Tyler runs all things music at LifePoint. He is passionate about using musical worship as a way of glorifying God, and is excited to see how God is going to use LifePoint to impact the community of Oakdale and the world. He is married to Amy, has two children, Brody & Grace, and loves to spend time outdoors.</div>
   </div>
 </div>
-<div class="row">
-  <div class="col-6 cabin-profile">
-  <div class="cabin-profile-image" style="background-image: url(https://res.cloudinary.com/deqkp2xjs/image/upload/v1544204849/images/jeff_and_becky.jpg);background-position: center 10%"></div>
-  <div class="cabin-profile-title">Jeff & Becky Sibley</div>
-  <div class="cabin-profile-label">Youth Pastor</div>
-  <div class="cabin-profile-description">Jeff is responsible for the spiritual development of the youth from 5th grade to high school graduation. Jeff teaches Sunday morning Bible studies, coordinates events/camps, and preaches Sunday mornings when Steve is unavailable. Jeff partners in this ministry with his wife Becky. They have three daughters. Jeff enjoys working on his ranch, any and all sports, the mountains, and relaxing with his family.</div>
-  </div>
-</div>
