@@ -83,4 +83,4 @@ Click the button at the top of this page to get started. In order to be consider
 1. LifePoint’s Candidate Information Summary (Application above)
 2. Your resumé
 3. A statement, no longer than one page, on your philosophy of youth ministry.
-4. (If able) A link to your preaching (preferably video, but audio is acceptable if no video is available).
+4. (If able) A link to your preaching — preferably video, but audio is acceptable if no video is available.
