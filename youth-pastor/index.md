@@ -11,7 +11,7 @@ title: Youth Pastor Position
 
 **REPORTS TO:** Senior Pastor
 
-**EMPLOYEE STATUS:** Full-time salaried (45,000) plus health stipend
+**EMPLOYEE STATUS:** Full-time salaried + health stipend
 
 **WORK HOURS:** Approximately 40 hours per week plus
 
