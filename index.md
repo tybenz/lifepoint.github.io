@@ -1,6 +1,6 @@
 ---
 layout: default
-banner: Love God<br>Love Your Neighbor<br>Make Disciples
+banner: We're hiring a<br> youth pastor!
 title: Home
 published: true
 ---
