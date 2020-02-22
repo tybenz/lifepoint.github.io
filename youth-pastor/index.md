@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: youth-pastor
 parentPage: youth-pastor
 banner: We're hiring a<br> youth pastor!
 title: Youth Pastor Position
