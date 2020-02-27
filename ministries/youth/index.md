@@ -5,7 +5,7 @@ banner: Youth Ministry
 title: Youth Ministry
 published: true
 ---
-Sunday morning Bible Study 5th-8th grade after worship
+Sunday morning Bible Study 6th-8th grade after worship
 
 We send students to Hume Lake Christian Camps every summer in June. This years dates June 14-20. Here are some photos from one of our trips:
 

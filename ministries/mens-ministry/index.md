@@ -8,6 +8,8 @@ published: true
 
 **Men's bible study: Tuesdays @ 7:00pm**
 
-LifePoint Church Men’s Ministry is dedicated to helping men become the spiritual leaders that the Lord is calling them to be.  Our goal is to provide opportunities where men can connect and become the leaders, husbands, fathers and servants that God has designed them to be.
+No bells and whistles, straight up bible study. Come join us every Tuesday night at the church office from 7-8pm. Be ready to engage and be challenged by Gods inerrant transforming Word.
 
-“So the man of God may be thoroughly equipped for every good work.”  2 Timothy 3:17
+Proverbs 27:17 “As iron sharpens iron, so one man sharpens another.”
+
+Just a heads up: Men’s bible study breaks for the months of December and May-August for summer break
