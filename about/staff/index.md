@@ -4,6 +4,7 @@ parentPage: about
 banner: Staff
 title: Staff
 published: true
+order: 1
 ---
 
 <h3 class="row"><div class="col-12">Meet the team</div></h3>

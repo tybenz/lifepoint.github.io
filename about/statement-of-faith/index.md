@@ -3,6 +3,7 @@ layout: default
 parentPage: about
 banner: About
 title: Statement of Faith
+order: 3
 ---
 
 ### Statement of Faith

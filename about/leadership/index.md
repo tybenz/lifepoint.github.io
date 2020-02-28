@@ -3,6 +3,7 @@ layout: default
 parentPage: about
 banner: Leadership
 title: Leadership
+order: 2
 ---
 
 <h3 class="row"><div class="col-12">Meet the team</div></h3>

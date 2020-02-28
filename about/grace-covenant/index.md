@@ -4,6 +4,7 @@ parentPage: about
 banner: Grace Covenant
 title: Grace Covenant
 published: true
+order: 4
 ---
 
 We are affiliated with Grace Covenant International.
