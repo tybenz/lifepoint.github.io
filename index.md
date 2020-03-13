@@ -1,11 +1,18 @@
 ---
 layout: default
 banner: We're hiring a<br> youth pastor!
-title: Home
 published: true
 ---
 
 # News
+
+**LifePoint's Response to Coronavirus**
+
+<a href="/covid-19">Read more here</a>
+
+**Family Camp is Coming**
+
+June 5th-7th
 
 **Sunday Service**
 
@@ -15,7 +22,7 @@ published: true
 
 Men's: Tuesdays @ 7:00pm
 
-Women's: Wednesdays @ 9:00am & Wednesdays @ 7:00pm
+Women's: Wednesdays @ 9:00am & Wednesdays @ 6:30pm
 
 **We are hiring a youth pastor!**
 
