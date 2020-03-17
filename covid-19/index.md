@@ -4,17 +4,16 @@ banner: COVID-19 Response
 published: true
 ---
 
-LifePoint church family,
+Dear LifePoint Church family,
 
-As a result of the recent developments surrounding the progress of COVID-19 (coronavirus), we are taking several steps to ensure the safety and the health of our congregation. At this point we are still offering services on Sunday and during the week. But if you are uncomfortable coming, please don't feel like you have to.
+In light of President Trump’s and Stanislaus Health Services Agency’s recommendations for faith-based organizations, LifePoint has decided to postpone Sunday and mid-week services for the next two weeks. With much prayer and reflection, the decision was made not based on fear but on being a responsible member of our community.  It is our desire to support the efforts of the healthcare professionals in controlling the potential spread of this virus.
 
-STEPS WE ARE TAKING:
-1.  We will not be providing any donuts, just coffee.
-2.  Hand sanitizer and wipes will be placed at the front entrance.
-3.  The facilities will be sanitized and deep cleaned on an ongoing basis.
-4.  As always, we want the church family to be friendly and considerate to those that we meet during our "greeting time".  With that being said, please do not assume that a handshake or a friendly hug is an appropriate greeting during this season.
+Philippians 4:6-7: Do not be anxious about anything, but in every situation, by prayer and petition, with thanksgiving, present your requests to God. And the peace of God, which transcends all understanding, will guard your hearts and your minds in Christ Jesus.
 
-As a church family, we know that God is in full control. Even though it is tempting to be fearful of what is unknown, we know that our God is a mighty fortress and has steadfast love for the world.
+As we gather as individual families during these next few weeks, please pray for our elderly, our country’s leadership, healthcare professionals, first responders and small businesses.
+
+If you have any questions or concerns, please call Pastor Steve at (209)499-3836. We will keep you updated.
 
 In His grip,
+
 LifePoint Leadership

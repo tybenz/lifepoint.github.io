@@ -6,9 +6,9 @@ published: true
 
 # News
 
-**LifePoint's Response to Coronavirus**
+**No Service until April 5th**
 
-<a href="/covid-19">Read more here</a>
+Due to Corona Virus. <a href="/covid-19">Read more here</a>
 
 **Family Camp is Coming**
 
