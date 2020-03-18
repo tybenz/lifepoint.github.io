@@ -1,6 +1,6 @@
 ---
 layout: default
-banner: We're hiring a<br> youth pastor!
+banner: Service canceled
 published: true
 ---
 
