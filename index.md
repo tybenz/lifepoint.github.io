@@ -1,8 +1,18 @@
 ---
 layout: default
-banner: Service canceled
+banner: Love God<br>Love Your Neighbor<br>Make Disciples
 published: true
 ---
+
+# This Week's Message
+
+<div style="max-width: 700px; max-height:393.75px">
+  <div style="max-width: 700px;height: 0;padding-bottom: 56.25%; position: relative;">
+    <iframe style="position: absolute; top:0; left: 0;width: 100%; height: 100%" src="https://www.youtube.com/embed/GABQ9uTgPuY?vc3=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+</div>
+
+<br>
 
 # News
 
