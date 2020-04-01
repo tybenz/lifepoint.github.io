@@ -16,10 +16,11 @@ published: true
 
 # News
 
-**No Service until April 5th**
+*No service this week due to Coronavirus <a href="/covid-19">Read more here</a>*
 
-Due to Corona Virus. <a href="/covid-19">Read more here</a>
+<br>
 
+<!--
 **Family Camp is Coming**
 
 June 5th-7th
@@ -33,6 +34,7 @@ June 5th-7th
 Men's: Tuesdays @ 7:00pm
 
 Women's: Wednesdays @ 9:00am & Wednesdays @ 6:30pm
+-->
 
 **We are hiring a youth pastor!**
 
