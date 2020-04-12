@@ -16,7 +16,7 @@ published: true
 
 <div style="max-width: 700px; max-height:393.75px">
   <div style="max-width: 700px;height: 0;padding-bottom: 56.25%; position: relative;">
-    <iframe style="position: absolute; top:0; left: 0;width: 100%; height: 100%" src="https://www.youtube.com/embed/O9oZa_mWahQ?vc3=1&v=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe style="position: absolute; top:0; left: 0;width: 100%; height: 100%" src="https://www.youtube.com/embed/F0dQuJWKxDc?vc3=1&v=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
 </div>
 
@@ -25,8 +25,6 @@ published: true
 # News
 
 *No service this week due to Coronavirus <a href="/covid-19">Read more here</a>*
-
-<br>
 
 <!--
 **Family Camp is Coming**
@@ -43,7 +41,3 @@ Men's: Tuesdays @ 7:00pm
 
 Women's: Wednesdays @ 9:00am & Wednesdays @ 6:30pm
 -->
-
-**We are hiring a youth pastor!**
-
-<a href="/youth-pastor" class="register-btn">LEARN MORE</a>
