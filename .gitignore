@@ -3,3 +3,4 @@ assets/images
 assets/fonts
 assets/videos
 _site
+.jekyll-cache
