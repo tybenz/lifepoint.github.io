@@ -10,8 +10,14 @@
 }
 
 @media only screen and (max-width: 500px) {
-    .cabin-title-home h1 {
-        font-size: 28px;
+    .cabin-title h1 {
         line-height: 1.5;
+        left: 20px;
+    }
+
+    .cabin-title-home h1 {
+        font-size: 18px;
+        line-height: 1.5;
+        left: 20px;
     }
 }

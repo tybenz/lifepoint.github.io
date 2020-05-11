@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 banner: Love God<br>Love Your Neighbor<br>Make Disciples
 published: true
 ---
