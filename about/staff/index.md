@@ -24,11 +24,19 @@ order: 1
 </div>
 <div class="row">
   <div class="col-6 cabin-profile">
+  <div class="cabin-profile-image" style="background-image: url(https://res.cloudinary.com/deqkp2xjs/image/upload/v1592942399/images/harlan_and_brooke2.jpg);background-position: center 45%"></div>
+  <div class="cabin-profile-title">Harlan Champoux</div>
+  <div class="cabin-profile-label">Youth Pastor</div>
+  <div class="cabin-profile-description">Harlan leads our students from 6th-12th grade and helps them to connect with God and grow in their faith. He has a heart to help parents disciple their teens and pre-teens in any way he can. He also is here to help Steve accomplish the vision at LifePoint. Harlan is married to Brooke and they have a dog named Enoch. Harlan likes to run marathons, beatbox, and hang out with people.</div>
+  </div>
+  <div class="col-6 cabin-profile">
   <div class="cabin-profile-image" style="background-image: url(https://res.cloudinary.com/deqkp2xjs/image/upload/v1544204830/images/amy.jpg);background-position: center 23%"></div>
   <div class="cabin-profile-title">Amy Benziger</div>
   <div class="cabin-profile-label">Bookkeeper</div>
   <div class="cabin-profile-description">Amy is responsible for bookkeeping, planning events, and general organization around the church. She is married to Tyler, has two beautiful kids, Brody & Grace, loves to sing and to solve jigsaw puzzles.</div>
   </div>
+</div>
+<div class="row">
   <div class="col-6 cabin-profile">
   <div class="cabin-profile-image" style="background-image: url(https://res.cloudinary.com/deqkp2xjs/image/upload/v1544204840/images/tyler.jpg);background-position: center 15%"></div>
   <div class="cabin-profile-title">Tyler Benziger</div>
