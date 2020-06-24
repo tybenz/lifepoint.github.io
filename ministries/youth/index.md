@@ -12,12 +12,12 @@ Here are our weekly meeting times:
 
 **High School Youth Group (9th-12th)**
 - Day: Sunday Night
-- Time: 6:00pm-8:00pm
+- Time: 6:30pm-8:00pm
 - Location: The Basement
 
 **Junior High Youth Group (6th-8th)**
 - Day: Tuesday Night
-- Time: 6:00pm-8:30pm
+- Time: 6:30pm-8:30pm
 - Location: The Basement
 
 **Junior High Bible Study (6th-8th)**
