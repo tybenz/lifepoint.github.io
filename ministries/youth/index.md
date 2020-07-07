@@ -17,7 +17,7 @@ Here are our weekly meeting times:
 
 **Junior High Youth Group (6th-8th)**
 - Day: Tuesday Night
-- Time: 6:30pm-8:30pm
+- Time: 6:30pm-8:00pm
 - Location: The Basement
 
 **Junior High Bible Study (6th-8th)**
