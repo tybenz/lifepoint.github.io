@@ -5,7 +5,7 @@ title: Christmas Songs
 published: true
 ---
 
-<iframe src="https://open.spotify.com/embed/playlist/3OF4IGF2thnxT0J1qLlgFn" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<iframe src="https://open.spotify.com/embed/playlist/1pGfcBLr0Nq2znP5g1iRFj" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
 ### Joy To The World
 
