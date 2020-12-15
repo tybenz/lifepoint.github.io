@@ -51,24 +51,22 @@ Him whose birth the angels Sing<br>
 Come, adore on bended knee<br>
 Christ, the Lord, the newborn King<br>
 
-### O Come All Ye Faithful
+### O Come Let Us Adore Him
 
-Oh, come, all ye faithful<br>
-Joyful and triumphant<br>
-Oh, come ye, oh, come ye to Bethlehem<br>
-Come and behold him<br>
-Born the king of angels<br>
-<br>
 Oh, come, let us adore him<br>
 Oh, come, let us adore him<br>
 Oh, come, let us adore him<br>
-<br>
 Christ the Lord<br>
-Sing, choirs of angels<br>
-Sing in exultation<br>
-Sing, all ye citizens of heaven above<br>
-Glory to God<br>
-Glory in the highest<br>
+<br>
+We give you all the glory<br>
+We give you all the glory<br>
+We give you all the glory<br>
+Christ the Lord<br>
+<br>
+For You along are worthy<br>
+For You along are worthy<br>
+For You along are worthy<br>
+Christ the Lord<br>
 
 
 ### Go Tell It On The Mountain
