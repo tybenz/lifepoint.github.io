@@ -10,19 +10,30 @@ published: true
         max-width: 1200px;
         padding-left: 16px;
         font-family: Roboto;
+        font-size: 16px;
+    }
+
+    @media screen and (max-width: 600px) {
+        .replicate-table {
+            font-size: 14px;
+        }
+
+        .replicate-table .week {
+            max-width: 100px;
+        }
     }
 
     .replicate-table .week {
         display: inline-block;
         margin-bottom: 45px;
         margin-right: 25px;
-        font-size: 14px;
+        font-size: 0.875em;
         width: 120px;
     }
 
     .replicate-table .week-label {
         text-transform: uppercase;
-        font-size: 10px;
+        font-size: 0.625em;
         letter-spacing: 0.08em;
         font-weight: 700;
         font-family: Raleway;
@@ -74,7 +85,7 @@ published: true
         position: absolute;
         top: -16px;
         text-transform: uppercase;
-        font-size: 9px;
+        font-size: 0.5625em;
         letter-spacing: 0.08em;
     }
 </style>
