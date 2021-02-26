@@ -105,6 +105,8 @@ prayer.
 
 Here is more on the [H.E.A.R. journaling method](https://replicate.org/what-is-a-hear-journal/).
 
+Call or text (209) 614-2267 for more information.
+
 ### Reading plan
 
 <div class="replicate-table">
