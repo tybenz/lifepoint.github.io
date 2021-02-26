@@ -15,6 +15,10 @@ published: true
 
 As of December 13<sup>th</sup> 2020, sermons will be recorded and available [here](/sermons).
 
+**New Men's Discipleship Group**
+
+Starting February 26th, there will be a new Men's Discipleship Group meeting Fridays at 5:30am. [Click here](/replicate) to learn more.
+
 **Free Tutoring**
 
 Do you know a student who needs some help with their studies? Please spread the word!
