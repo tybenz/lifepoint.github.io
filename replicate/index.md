@@ -638,7 +638,7 @@ More on the [H.E.A.R. journaling method](https://replicate.org/what-is-a-hear-jo
 (() => {
     document.querySelectorAll('.checked').forEach((d) => d.classList.remove('checked'));
 
-    const start = new Date('2021 02 22');
+    const start = new Date('2021 03 01');
     const today = new Date();
     today.setHours(0);
     today.setMinutes(0);
