@@ -90,7 +90,7 @@ published: true
     }
 </style>
 
-### Men's Morning Bible Study
+### Men's Discipleship Group
 
 - Fridays at 5:30am
 - Church Office
@@ -103,7 +103,9 @@ The reading plan also includes a weekly memory verse. Each week, we get
 together to discuss what we've read during the week and lift one another up in
 prayer.
 
-More on the [H.E.A.R. journaling method](https://replicate.org/what-is-a-hear-journal/).
+Here is more on the [H.E.A.R. journaling method](https://replicate.org/what-is-a-hear-journal/).
+
+Call or text (209) 614-2267 for more information.
 
 ### Reading plan
 
@@ -638,7 +640,7 @@ More on the [H.E.A.R. journaling method](https://replicate.org/what-is-a-hear-jo
 (() => {
     document.querySelectorAll('.checked').forEach((d) => d.classList.remove('checked'));
 
-    const start = new Date('2021 02 22');
+    const start = new Date('2021 03 01');
     const today = new Date();
     today.setHours(0);
     today.setMinutes(0);

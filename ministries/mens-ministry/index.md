@@ -13,3 +13,7 @@ No bells and whistles, straight up bible study. Come join us every Tuesday night
 Proverbs 27:17 “As iron sharpens iron, so one man sharpens another.”
 
 Just a heads up: Men’s bible study breaks for the months of December and May-August for summer break
+
+**Men's discipleship group**
+
+Looking to go deeper in your faith and scripture reading? [Click here](/replicate) to read more about our weekly men's discipleship group.
