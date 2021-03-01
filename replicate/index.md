@@ -646,7 +646,8 @@ Call or text (209) 614-2267 for more information.
     today.setMinutes(0);
     today.setSeconds(0);
     today.setMilliseconds(0);
-    const dayDiff = (today - start) / (24 * 60 * 60 * 1000);
+    const todaysDayIndex = (today - start) / (24 * 60 * 60 * 1000);
+    const todaysWeekIndex = Math.floor(todaysDayIndex / 7);
 
     const weekElements = document.querySelectorAll('.week');
 
@@ -656,15 +657,16 @@ Call or text (209) 614-2267 for more information.
     weekElements.forEach((w, weekNum) => {
         const days = w.querySelectorAll('.day');
         if (!stop) {
-            const currentDay = (weekNum + 1) * 7;
-            if (currentDay <= dayDiff) {
+            const dayIndex = weekNum * 7;
+            if (weekNum < todaysWeekIndex) {
                 w.querySelector('.memory-verse').classList.add('checked');
             }
             days.forEach((d, dayNum) => {
-                const currentDay = weekNum * 7 + dayNum;
-                if (currentDay < dayDiff) {
+                const dayIndex = (weekNum * 7) + dayNum;
+
+                if (dayIndex < todaysDayIndex) {
                     d.classList.add('checked');
-                } else if (currentDay == dayDiff) {
+                } else if (dayIndex == todaysDayIndex) {
                     d.classList.add('today');
                 } else {
                     stop = true;
