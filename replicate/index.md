@@ -34,7 +34,7 @@ published: true
     .replicate-table .week-label {
         text-transform: uppercase;
         font-size: 0.625em;
-        letter-spacing: 0.08em;
+        varter-spacing: 0.08em;
         font-weight: 700;
         font-family: Raleway;
     }
@@ -86,7 +86,7 @@ published: true
         top: -16px;
         text-transform: uppercase;
         font-size: 0.5625em;
-        letter-spacing: 0.08em;
+        varter-spacing: 0.08em;
     }
 </style>
 
@@ -636,33 +636,37 @@ Call or text (209) 614-2267 for more information.
 </div>
 
 <script type="text/javascript">
-// not working
-(() => {
-    document.querySelectorAll('.checked').forEach((d) => d.classList.remove('checked'));
+(function () {
+    var checked = document.querySelectorAll('.checked');
+    for (var i = 0, len = checked.length; i < len; i++) {
+        checked[i].classList.remove('checked');
+    }
 
-    const start = new Date('2021 03 01');
-    const today = new Date();
+    var start = new Date('2021/03/01');
+    var today = new Date();
     today.setHours(0);
     today.setMinutes(0);
     today.setSeconds(0);
     today.setMilliseconds(0);
-    const todaysDayIndex = (today - start) / (24 * 60 * 60 * 1000);
-    const todaysWeekIndex = Math.floor(todaysDayIndex / 7);
+    var todaysDayIndex = (today - start) / (24 * 60 * 60 * 1000);
+    var todaysWeekIndex = Math.floor(todaysDayIndex / 7);
 
-    const weekElements = document.querySelectorAll('.week');
+    var weekElements = document.querySelectorAll('.week');
 
-    let stop = false;
-    let currentDay = start;
+    var stop = false;
+    var currentDay = start;
 
-    weekElements.forEach((w, weekNum) => {
-        const days = w.querySelectorAll('.day');
+    for (var weekNum = 0, weekLen = weekElements.length; weekNum < weekLen; weekNum++) {
+        var w = weekElements[weekNum];
+        var days = w.querySelectorAll('.day');
         if (!stop) {
-            const dayIndex = weekNum * 7;
+            var dayIndex = weekNum * 7;
             if (weekNum < todaysWeekIndex) {
                 w.querySelector('.memory-verse').classList.add('checked');
             }
-            days.forEach((d, dayNum) => {
-                const dayIndex = (weekNum * 7) + dayNum;
+            for (var dayNum = 0, dayLen = days.length; dayNum < dayLen; dayNum++) {
+                var d = days[dayNum];
+                var dayIndex = (weekNum * 7) + dayNum;
 
                 if (dayIndex < todaysDayIndex) {
                     d.classList.add('checked');
@@ -671,8 +675,8 @@ Call or text (209) 614-2267 for more information.
                 } else {
                     stop = true;
                 }
-            });
+            }
         }
-    });
+    }
 })();
 </script>
