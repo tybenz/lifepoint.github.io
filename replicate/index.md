@@ -62,9 +62,40 @@ published: true
         line-height: 12px;
     }
 
-    .replicate-table .day.checked:after,
-    .replicate-table .memory-verse.checked:after {
-        content: '✖';
+    .replicate-table .day .check,
+    .replicate-table .memory-verse .check {
+        width: 14px;
+        height: 14px;
+        position: absolute;
+        left: -20px;
+        top: 0px;
+    }
+
+    .replicate-table .day .check:after,
+    .replicate-table .day .check:before,
+    .replicate-table .memory-verse .check:after,
+    .replicate-table .memory-verse .check:before {
+        content: '';
+        display: block;
+        width: 2px;
+        height: 10px;
+        background: black;
+        transform-origin: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-left: -1px;
+        margin-top: -5px;
+    }
+
+    .replicate-table .day .check:after,
+    .replicate-table .memory-verse .check:after {
+        transform: rotate(45deg);
+    }
+
+    .replicate-table .day .check:before,
+    .replicate-table .memory-verse .check:before {
+        transform: rotate(-45deg);
     }
 
     .replicate-table .day.today:after,
@@ -640,6 +671,7 @@ Call or text (209) 614-2267 for more information.
     var checked = document.querySelectorAll('.checked');
     for (var i = 0, len = checked.length; i < len; i++) {
         checked[i].classList.remove('checked');
+        checked[i].innerHTML = '';
     }
 
     var start = new Date('2021/03/01');
@@ -662,7 +694,13 @@ Call or text (209) 614-2267 for more information.
         if (!stop) {
             var dayIndex = weekNum * 7;
             if (weekNum < todaysWeekIndex) {
-                w.querySelector('.memory-verse').classList.add('checked');
+                var verse = w.querySelector('.memory-verse');
+                if (verse) {
+                    verse.classList.add('checked');
+                    var check = document.createElement('div');
+                    check.className = 'check';
+                    verse.append(check);
+                }
             }
             for (var dayNum = 0, dayLen = days.length; dayNum < dayLen; dayNum++) {
                 var d = days[dayNum];
@@ -670,6 +708,9 @@ Call or text (209) 614-2267 for more information.
 
                 if (dayIndex < todaysDayIndex) {
                     d.classList.add('checked');
+                    var check = document.createElement('div');
+                    check.className = 'check';
+                    d.append(check);
                 } else if (dayIndex == todaysDayIndex) {
                     d.classList.add('today');
                 } else {
