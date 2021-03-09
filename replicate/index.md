@@ -71,6 +71,14 @@ published: true
         top: 0px;
     }
 
+    @supports (-webkit-touch-callout: none) {
+        /* CSS specific to iOS devices */ 
+        .replicate-table .day .check,
+        .replicate-table .memory-verse .check {
+            top: -1px;
+        }
+    }
+
     .replicate-table .day .check:after,
     .replicate-table .day .check:before,
     .replicate-table .memory-verse .check:after,
