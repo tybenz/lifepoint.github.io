@@ -683,11 +683,20 @@ Call or text (209) 614-2267 for more information.
     }
 
     var start = new Date('2021/03/01');
+    // start seems to be in a different timezone (one hour off) - make sure we compensate for it
+    start.setHours(-1);
+    start.setMinutes(0);
+    start.setSeconds(0);
+    start.setMilliseconds(0);
+
     var today = new Date();
     today.setHours(0);
     today.setMinutes(0);
     today.setSeconds(0);
     today.setMilliseconds(0);
+
+    console.log(today - start);
+    console.log(( today - start ) / (1000 * 60 * 60 * 24));
     var todaysDayIndex = (today - start) / (24 * 60 * 60 * 1000);
     var todaysWeekIndex = Math.floor(todaysDayIndex / 7);
 
@@ -722,6 +731,10 @@ Call or text (209) 614-2267 for more information.
                 } else if (dayIndex == todaysDayIndex) {
                     d.classList.add('today');
                 } else {
+                    today = document.querySelector('.today');
+                    if (!today) {
+                        d.classList.add('today');
+                    }
                     stop = true;
                 }
             }
