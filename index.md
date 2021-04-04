@@ -8,7 +8,7 @@ published: true
 
 **Sunday Service**
 
-9:30am First Service<br>
+9:00am First Service<br>
 10:30am Second Service
 
 **Listen/Watch Sermons**
