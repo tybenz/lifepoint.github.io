@@ -7,6 +7,7 @@ published: true
 
 # Upward Sports
 
+<a class="upward-register-btn" href="https://registration.upward.org/UPW80124">REGISTER NOW</a>
 
 **Flag Football**
 
