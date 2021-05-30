@@ -8,8 +8,8 @@ published: true
 
 **Church Potluck**
 
-Sunday June 6th<br/>
-10am at the Brodies' house<br/>
+Sunday June 6th<br>
+10am at the Brodies' house<br>
 Contact us for the address
 
 **Sunday Service**
