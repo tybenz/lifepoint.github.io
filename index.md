@@ -6,6 +6,12 @@ published: true
 
 # News
 
+**Church Potluck**
+
+Sunday June 6th
+10am at the Brodies' house
+Contact us for the address
+
 **Sunday Service**
 
 9:00am First Service<br>
