@@ -18,6 +18,7 @@ published: true
 
 Sermons available [here](/sermons).
 
+<!--
 **Free Tutoring**
 
 Do you know a student who needs some help with their studies? Please spread the word!
@@ -31,3 +32,4 @@ Where? LifePoint Church. 120 West Ave
 Questions? Please call (760) 953-9629 or email lifepointyouthministry@gmail.com
 
 (Please call or email in advance to RSVP each week.)
+-->
