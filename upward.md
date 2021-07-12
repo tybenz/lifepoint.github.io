@@ -33,8 +33,10 @@ Established in 1995, Upward Sports is the world’s largest Christian youth spor
 Oakdale Upward Sports is so blessed by the service of volunteers, who help ensure that our programs run smoothly and soundly. There are a variety of different volunteer opportunities available for our Flag Football program. Email [oakdaleupwardsports@gmail.com](mailto:oakdaleupwardsports@gmail.com) for details.
 
 **Important dates**
-- Player Evaluation – July 31, 2021
+- Registration Ends – July 31, 2021
+- Evaluations – July 31, 2021
 - Practice Begins – Week of August 23, 2021
+- Picture Day – September 1, 2021
 - Games Begin – September 11, 2021
 
 **Cancellation Policy**
